@@ -340,7 +340,8 @@ public class SecretDetector
 
       for (int curPos = beginPos; curPos < endPos; curPos++)
       {
-        chars[curPos] = '☺';
+        //chars[curPos] = '☺';
+        chars[curPos] = Character.toChars(0x263A)[0];
       }
     }
 
